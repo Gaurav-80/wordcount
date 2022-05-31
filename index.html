@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Character Counter App</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="container">
+<h2>Real Time character Counter</h2>
+<p>Check Your English Text For grammer,spelling and error real time character Counter</p>
+
+<textarea id="textarea" class="textarea" maxlength="200" placeholder="Please write here">
+</textarea>
+
+	<button onclick="copyText()"> Copy Text </button>
+
+	<div class="Counter-container">
+		<p> Total character: <span id="total-counter">0</span></p>
+		<p> Remaining character: <span id="remaining-counter">200</span></p>
+	</div>	
+</div>
+
+<!-- custom js file link  -->
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
